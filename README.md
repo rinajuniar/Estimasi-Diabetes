@@ -66,8 +66,8 @@ df.info()
 ```
 ```python
 sns.heatmap(df.isnull())
-![image](image(1))
 ```
+![image](image(1))
 ```pyyhon
 Glucose = df.groupby('Age').count()[['BMI']].sort_values(by='BMI').reset_index()
 Glucose = Glucose.rename(columns={'BMI' :'count'})
@@ -75,6 +75,7 @@ Glucose = Glucose.rename(columns={'BMI' :'count'})
 ```python
 plt.figure(figsize=(15,5))
 sns.barplot(x=Glucose['Age'],y=Glucose['count'],color='purple')
+```
 ![image](image(2))
 ```
 PISAHKAN DATA ATRIBUT DENGAN LABEL
