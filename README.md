@@ -67,7 +67,7 @@ df.info()
 ```python
 sns.heatmap(df.isnull())
 ```
-![image](image(1))
+![image](image(1).png)
 ```pyyhon
 Glucose = df.groupby('Age').count()[['BMI']].sort_values(by='BMI').reset_index()
 Glucose = Glucose.rename(columns={'BMI' :'count'})
