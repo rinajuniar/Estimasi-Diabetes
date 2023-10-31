@@ -1,5 +1,5 @@
 # Laporan Proyek Machine Learning
-### Nama : Rina Junir
+### Nama : Rina Juniar
 ### Nim : 211351126
 ### Kelas : Pagi B
 
