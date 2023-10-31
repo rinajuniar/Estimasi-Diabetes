@@ -55,11 +55,11 @@ from sklearn.metrics import accuracy_score
 ```
 MEMANGGIL DATASET
 ```python
-diabetes_data = pd.read_csv('diabetes.csv')
+df = pd.read_csv('diabetes.csv')
 ```
 DESKRIPSI DATASET
 ```python
-diabetes_data.head()
+df.head()
 ```
 ```python
 df.info()
