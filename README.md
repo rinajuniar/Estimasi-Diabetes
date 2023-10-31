@@ -76,7 +76,7 @@ Glucose = Glucose.rename(columns={'BMI' :'count'})
 plt.figure(figsize=(15,5))
 sns.barplot(x=Glucose['Age'],y=Glucose['count'],color='purple')
 ```
-![image](image(2))
+![image](image2.png)
 ```
 PISAHKAN DATA ATRIBUT DENGAN LABEL
 
